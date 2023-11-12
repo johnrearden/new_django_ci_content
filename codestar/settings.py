@@ -28,7 +28,8 @@ DEBUG = 'DEBUG' in os.environ
 
 ALLOWED_HOSTS = [
     '8000-johnrearden-newdjangoci-2xnfssb9kdy.ws-eu106.gitpod.io',
-    'https://new-ci-blog-content-60acbe188462.herokuapp.com/',]
+    'https://new-ci-blog-content-60acbe188462.herokuapp.com/',
+    'new-ci-blog-content-60acbe188462.herokuapp.com']
 
 
 # Application definition
