@@ -1,7 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.views import generic
 
-# Create your views here.
+from .models import Post, Comment
 
-def index(request):
-    return HttpResponse('Yo, world')
+
+class PostList(generic.ListView):
+    queryset = Post.objects.all()
+    template_name = 'post_list.html'
+
+
